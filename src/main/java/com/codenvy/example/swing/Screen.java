@@ -57,6 +57,7 @@ public class Screen
        case 3:
        	r = Operadores.multPilha(p.alg.get(0),p.alg.get(1));
        	this.exibeNum();
+       break;
        case 4:
          r = Operadores.dividePilha(p.alg.get(0),p.alg.get(1));
        	this.exibeNum();
