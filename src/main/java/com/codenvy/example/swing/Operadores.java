@@ -1,88 +1,38 @@
-package model;
-import java.util.Set;
-import java.util.HashSet;
+package com.codenvy.example.swing;
 
-
-/**
- * <!-- begin-user-doc -->
- * <!--  end-user-doc  -->
- * @generated
- */
 
 public class Operadores
 {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public Set<Pilha> pilha;
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
+  
 	public Operadores(){
 		super();
 	}
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public int somaPilha() {
-		// TODO implement me
-		return 0;	
+
+	public static int somaPilha(int x, int y) {
+		return x + y;
 	}
 	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
+
 	
-	public int subPilha() {
+	public static int subPilha(int x, int y) {
 		// TODO implement me
-		return 0;	
+		return x - y;	
+	}
+
+	
+	public static int multPilha(int x, int y) {
+		// TODO implement me
+		return x * y;	
 	}
 	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public int multPilha() {
+
+	public static int dividePilha(int x, int y) {
 		// TODO implement me
-		return 0;	
+		return x / y;	
 	}
 	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public int dividePilha() {
-		// TODO implement me
-		return 0;	
-	}
-	
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
+
 	
 	public void limpaPilha() {
 		// TODO implement me	
