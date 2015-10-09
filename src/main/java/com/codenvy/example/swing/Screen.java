@@ -6,6 +6,7 @@ public class Screen
 {
 
   Pilha p;
+  int r;
   
 	public Screen(){
 		super();
@@ -30,7 +31,7 @@ public class Screen
 
 	
 	public void exibeNum() {
-		// TODO implement me	
+		System.out.println("o resultado e:   " + r);
 	}
 	
 	
@@ -43,22 +44,22 @@ public class Screen
      
      Scanner sc = new Scanner(System.in);
      int opr = sc.nextInt();
-     int r;
+   
      switch(opr){
        case 1:
        	r = Operadores.somaPilha(p.alg.get(0),p.alg.get(1));
-       	System.out.println("o resultado e:   " + r);
+       	this.exibeNum();
          break;
        case 2:
        	r = Operadores.subPilha(p.alg.get(0),p.alg.get(1));
-       	System.out.println("o resultado e:   " + r);
+       	this.exibeNum();
          break;
        case 3:
        	r = Operadores.multPilha(p.alg.get(0),p.alg.get(1));
-       	System.out.println("o resultado e:   " + r);
+       	this.exibeNum();
        case 4:
          r = Operadores.dividePilha(p.alg.get(0),p.alg.get(1));
-       	System.out.println("o resultado e:" + r);
+       	this.exibeNum();
        break;
        
        default:{
